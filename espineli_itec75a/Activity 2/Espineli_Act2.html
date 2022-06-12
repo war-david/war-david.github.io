@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-grid.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" type="image/svg+xml" href="resource/01.png">
+	<title>Mark David Espineli Portfolio</title>
+	<style>
+		html {
+			scroll-behavior: smooth;
+		}
+		#opening {
+			background-repeat: no-repeat;
+			padding: 0;
+			background-color: black;
+		}
+		body {
+			background-color: #095D66;
+		}
+		#navbar {
+			background-color: #C36312;
+		}
+		#about {
+			margin: 0 0 20px 0;
+		}
+		p {
+			text-align: justify;
+			margin:0 0 0 0;
+		}
+		a:hover {
+			color: black;
+		}
+		a {
+			color: #ff8800;
+			text-decoration: none;
+		}
+		footer {
+			text-align: center;
+		}
+	</style>
+</head>
+
+<script src="css/bootstrap.min.js"></script>
+
+<body>
+	
+	<!--Nav-Bar-->
+	<header>
+		<div class="navbar navbar-dark shadow-sm fixed-top" id="navbar">
+			<div class="col-4 container-fluid p-1 text-white mb-0 h4">
+				<a class="link-secondary text-white d-flex align-items-center" href="#" style="line-height:20px;font-size:27px;letter-spacing:1px;" id="item">
+					My Portfolio
+				</a>
+			</div>
+			<div class="col-8">
+				<nav class="nav d-flex justify-content-between float-right">
+					<a class="p-2 link-secondary text-white" href="#hobbies" id="item">Hobbies and Interests</a>
+					<a class="p-2 link-secondary text-white" href="#favorites" id="item">Favorites</a>
+					<a class="p-2 link-secondary text-white" href="#contact" id="item">Contact Me</a>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<div class="container-fluid">
+	
+		<!--Jumbotron-->
+		<div class="jumbotron text-white" style="margin-top:73px;" id="opening">
+			<div class="row">
+				<div class="col-sm">
+					<img class="img-fluid" style="width:auto; height:100%" src="resource/01.png">
+				</div>
+				<div class="col-sm my-auto" id="opening-info">
+					<h1 class="display-4" style="text-shadow: 1px 1px #ff8800; font-weight:600;">Hello World!</h1>
+					<p class="lead" style="text-shadow: 1px 1px #ff8800; font-weight:500; margin:0 15px 0 0;" >Hi! I am David. A son, brother, student, servant, an aspiring web developer, programmer and a Filipino. You'll get to know more of me as you scroll down. Have a great day!</p>
+					<hr class="my-4">
+					<p style="text-shadow: 1px 1px #ff8800; margin:0 15px 0 0;">Click the button below to know more about me.</p>
+					<p class="lead" style="margin:10px 15px 0 0;">
+						<a class="btn btn-outline-warning btn-lg" href="#info" role="button">Get to know me!</a>
+					</p>
+				</div>
+			</div>	
+		</div>
+		
+		<div id="info">
+			<div class="jumbotron mt-1 mb-0 text-white" style="background-color:#C36312; padding:0; !important">
+				<h1 class="display-4" style="margin-bottom:10px; padding:20px 0 20px 20px;" id="about">All About Me</h1>
+			</div>
+		<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+			<!--card 1-->
+			<div class="col-4">
+				<div class="card shadow-sm">
+					<img class="card-img-top" src="resource/11.jpg" width="100%" height="225" alt="Personal Info">
+					<div class="card-body">
+						<h5 class="card-title">My Personal Info</h5>
+						<p class="card-text" style="min-height:90px;height:auto;">I am Mark David D. Espineli, 21 years of age, currently addressed in Block 48 Lot 15 Exodus Street Ayala Sampaguita Village Trece Martires City, Cavite. I am son of Benilda and brother to Mark Jacob.</p>
+					</div>
+				</div>
+			</div>
+			<!--card 2-->
+			<div class="col-4">
+				<div class="card shadow-sm">
+					<img class="card-img-top" src="resource/10.jpg" width="100%" height="225" alt="About My Birth">
+					<div class="card-body">
+						<h5 class="card-title">About my Birth</h5>
+						<p class="card-text" style="min-height:90px;height:auto;">I was born on the 9th day of September in the year 2000 in Dela Salle Hospital in Alfonso, Cavite. A fun fact, my mother was craving of fish when she was pregnant of me.</p>
+					</div>
+				</div>
+			</div>
+			<!--card 3-->
+			<div class="col-4">
+				<div class="card shadow-sm">
+					<img class="card-img-top" src="resource/09.jpg" width="100%" height="225" alt="Stu-dying At">
+					<div class="card-body">
+						<h5 class="card-title">Stu-dying At</h5>
+						<p class="card-text" style="min-height:90px;height:auto;">I am currently taking the course Bachelor of Science in Information Technology, in my third year now, in Cavite State University - Don Severino Delas Alas Campus.</p>
+					</div>
+				</div>
+			</div>
+	    </div>
+		</div>
+	</div>
+		
+	<div class="container-fluid">
+		<div class="row">
+		
+		<!--Left Pane-->
+		<div class="col-9 pl-3">
+			<div id="hobbies">
+			<!--Hobbies-->
+			<div class="jumbotron mt-3 mb-0 text-white" style="background-color:#C36312">
+				<h1 class="display-4">My Hobbies and Interests!</h1>
+				<p class="lead">Below you'll see what my hobbies and interests are. If we have hobbies and interests in common, that great! Isn't it nice to have someone to relate on.</p>
+			</div>
+	
+	
+			<div class="row row-cols-1 row-cols-sm-2 mt-3 g-3">
+				<!--card 1-->
+				<div class="col">
+					<div class="card shadow-sm">
+						<img class="card-img-top" src="resource/07.jpg" width="100%" height="225" alt="Mobile Games and Animes">
+						<div class="card-body">
+							<h5 class="card-title">Mobile Games and Animes</h5>
+							<p class="card-text" style="min-height:90px;height:auto;">Whenever I have spare time, I do spend it in watching my favorite animes and playing mobile games. I am hooked with isekais and fantasy animes as of the momment.</p>
+						</div>
+					</div>
+				</div>
+				<!--card 2-->
+				<div class="col">
+					<div class="card shadow-sm">
+						<img class="card-img-top" src="resource/08.jpeg" width="100%" height="225" alt="Coffee and Staying Indoors is <3">
+						<div class="card-body">
+							<h5 class="card-title">Coffee and Staying Indoors is <3</h5>
+							<p class="card-text" style="min-height:90px;height:auto;">I love having a good cup of aromatic coffee especially in the morning. I would suggest you Seattle's Hazelnut coffee is worth a try. I do prefer staying indoors than going out. But with friends, Lezgo!</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+	
+			<div id="favorites">
+			<!--Favorites-->
+			<div class="jumbotron mt-3 mb-0 text-white" style="background-color:#C36312">
+				<h1 class="display-4">Favorites Section!</h1>
+				<p class="lead">I present you my favorites section. I do have a small list of favorites but I assure you they are all real. How About you, what are your favorites?</p>
+			</div>
+	
+			<div class="row row-cols-1 row-cols-sm-2 mt-3 g-3">
+				<!--card 1-->
+				<div class="col">
+					<div class="card shadow-sm">
+						<img class="card-img-top" src="resource/05.png" width="100%" height="225" alt="Food and Music">
+						<div class="card-body">
+							<h5 class="card-title">Food and Music</h5>
+							<p class="card-text" style="min-height:90px;height:auto;">I love eating, I mean who doesn't? I ain't a picky eater, the very reason why I love street foods! Pares and tusok-tusok in HEPA lane is <3. In terms of music, I enjoy listening to OPM specifically Ben and Ben. </p>
+						</div>
+					</div>
+				</div>
+				<!--card 2-->
+				<div class="col">
+					<div class="card shadow-sm">
+						<img class="card-img-top" src="resource/06.jfif" width="100%" height="225" alt="Color and Fasion">
+						<div class="card-body">
+							<h5 class="card-title">Color and Fasion</h5>
+							<p class="card-text" style="min-height:90px;height:auto;">I kind of fond with the color Beige since for me, it seems relaxing and just minimal. Aside from that it's just neutral. In clothing, I am getting inspiration from smart street-casual looks which is vibey and subtle.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+    
+			<div id="contact">
+			<!--Contact Me-->
+			<div class="jumbotron mt-3 mb-0 text-white" style="background-color:#C36312">
+				<h1 class="display-4">Feel free to Contact Me!</h1>
+				<p class="lead">If you wish to connect with me, please do not hesitate to reach me! Below are my social media accounts and contact information. You may also click the links to my personal accounts.</p>
+			</div>
+	
+			<div class="row row-cols-1 row-cols-sm-2 mt-3 g-3">
+				<!--card 1-->
+				<div class="col">
+					<div class="card shadow-sm">
+						<img class="card-img-top" src="resource/03.jpg" width="100%" height="225" alt="Social Media Accounts">
+						<div class="card-body">
+							<h5 class="card-title">Social Media Accounts</h5>
+							<p class="card-text" style="min-height:90px;height:auto;">You may contact me on my Facebook account <a href="https://www.facebook.com/da.vidddddde/">@Mark David Espineli</a>, or on my Instagram <a href="https://www.instagram.com/_daviddde/">@_daviddde</a>, or Twitter <a href="https://twitter.com/_daviddde">@_daviddde</a>.</p>
+						</div>
+					</div>
+				</div>
+				<!--card 2-->
+				<div class="col">
+					<div class="card shadow-sm">
+						<img class="card-img-top" src="resource/04.jfif" width="100%" height="225" alt="Professional and Contact">
+						<div class="card-body">
+							<h5 class="card-title">Professional and Contact</h5>
+							<p class="card-text" style="min-height:90px;height:auto;">You may also reach me through my email <a href = "mailto: wardavid02@gmail.com">@wardavid02@gmail.com</a>, or on my Github account <a href="https://github.com/war-david">@war-david</a>, or through phone (0917) 905 8896.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	
+			<!--Right Pane-->
+			<div class="col-3 mt-3">
+				<div class="position-sticky" style="top: 4rem;">
+					<a class="link-secondary text-black d-flex align-items-center" href="#">
+					<div class="card shadow-sm">
+						<img class="card-img-top" src="resource/02.jpg" width="100%" height="100%" alt="The Farm at San Benito">
+						<div class="card-body" style="color:black;">
+							<h5 class="card-title mb-0"><a href="https://www.facebook.com/kuracafe.ph">Kura Cafe</a></h5>
+							<p class="card-text mb-2" ><i class="fa fa-star"></i> <i class="fa fa-star"> </i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i><br>Kura Cafe is my favorite go-to spot whenever I want to just chill. I recommend it too if you want.</p>
+						</div>
+					</div>
+					</a>
+					<div class="card shadow-sm mt-2">
+						<div class="card-body">
+							<p class="card-text">It may seem hard at first, but just keep youself together and you'll get there.</p>
+							<div class="d-flex justify-content-between align-items-center">
+								<small class="text-muted">David Espineli</small>	
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+	
+	<footer class="blog-footer mt-3 p-auto">
+		<p class="m-auto" style="text-align:center;">Portfolio of Mark David D. Espineli | <a href="https://www.facebook.com/da.vidddddde/">Facebook</a> | <a href="https://www.instagram.com/_daviddde/">Instagram</a> | <a href="https://twitter.com/_daviddde">Twitter</a> | <a href = "mailto: wardavid02@gmail.com">E-Mail</a> | <a href="https://github.com/war-david">Github</a></p>
+		<p class="m-auto" style="text-align:center;"><a href="#">Back to top</a></p>
+	</footer>
+
+</body>
+</html>
